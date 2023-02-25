@@ -1,0 +1,483 @@
+:root {
+ --mainBlue:#F1F5D0;
+ --lightBlue:#009ffd;
+ --mainWhite:#25252D;
+ --mainDark:#232528;
+ --mainYellow:#ffa400;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family:"Anton", sans-serif !important;
+  background:var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Anton', cursive;
+  letter-spacing:0.3rem;
+  text-transform: uppercase; 
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
+}
+.btn-black{
+  background:transparent;
+  text-transform:capitalize;
+  font-size:0.8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border:0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background:var(--mainDark) !important;
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--mainYellow);
+}
+.navbar-brand{
+  width: 100px;
+  height: 70px;
+}
+.navbar{
+  height: 80px;
+  text-align: center;
+}
+.delivery{
+  line-height: 1px;
+  margin-top: 20px;
+}
+.colorWhiteText{
+  color: black;
+}
+.searchShoppeSpree{
+  width: 650px;
+  height: 40px;
+  border: none;
+  /* border-radius: 5px; */
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+}
+.searchBox{
+  margin-left: 20px;
+  display: flex;
+}
+.searchBox ul{
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-left: 250px;
+  list-style: none;
+}
+.searchBox ul li{
+  float: left;
+  padding: 10px;
+}
+.searchBox i{
+  background-color: #f5c366;
+  padding: 12px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.userAccount{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  font-weight: 300;
+  line-height: 1px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.returnOrder{
+  margin-left: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  font-weight: 300;
+  line-height: 1px;
+  cursor: pointer;
+}
+
+.ml-auto{
+  color: rgb(6, 6, 6);
+  margin-top: -5px;
+}
+.fa-cart-plus{
+  
+  color: #111010;
+}
+
+.product{
+  color: black;
+}
+
+.companyMoto{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  position: relative;
+  color: #FAF3ED;
+}
+.companyMoto button{
+  width: 300px;
+  height: 40px;
+  background-color: #f5c366;
+  border: none;
+  border-radius: 5px;
+}
+.companyDetail{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.img1{
+  width: 40%;
+  height: 100vh;
+  /* display: flex; */
+  margin-top: 25px;
+}
+.img2{
+  top: 45%;
+  right: 25%;
+  position: absolute;
+  width: 350px;
+  border-radius: 5px;
+}
+.img3{
+  right: 8%;
+  position: absolute;
+  width: 350px;
+  border-radius: 5px;
+}
+.companyService{
+  margin-top: 105px;
+  margin-left: 15%;
+  color: white;
+  position: relative;
+}
+.companyService img{
+  width: 300px;
+  height: 300px;
+}
+.service{
+  display: flex;
+  text-align: center;
+}
+.service div{
+  width: 55%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  left: 19.5%;
+  background-color: #f5c366;
+  margin-top: 80px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.serviceImg{
+  z-index: 2;
+  border: 10px solid #f5c366;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.serviceImg1{
+  z-index: 2;
+  border: 10px solid #f5c366;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 70%;
+}
+
+
+.service2{
+  display: flex;
+  text-align: center;
+}
+
+.service2 div{
+  width: 55%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  left: 19.5%;
+  background-color: #f5c366;
+  margin-top: 95px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+
+
+/*footer*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+.container {
+  color: white;
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  padding: 3rem;
+  margin: auto;
+}
+ 
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 15px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+ 
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 15px 0;
+  background-color: #ffd1aa;
+  color: black;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* unvisited link */
+ 
+.btn-outline {
+  background-color: #fff;
+  color: #A6BCDA;
+}
+ 
+.center {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  font-size: large;
+  font-weight: 100;
+}
+ 
+p {
+  margin: 10px 0;
+}
+ 
+.img-container {
+  text-align: center;
+}
+ 
+.img-container img {
+  height: 200px;
+}
+.Vid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colorchange{
+  background-color: #F1F5D0;
+  color: #111010;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
